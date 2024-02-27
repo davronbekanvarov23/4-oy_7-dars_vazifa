@@ -284,24 +284,22 @@
 
 /*--------------------15-MASHQ-------------------------*/
 
-// const Davronbekobj = {
-//   name: "Davronbek",
-//   LastName: "Anvarov",
-//   age: 22,
-//   region: "Fergana",
-//   isMerried: false,
-//   job: "Bugalter",
-//   haqida: function () {
-//     return;
-//     `Assalomu alaykum,Mening ismim ${this.name},Familiyam ${
-//       this.LastName
-//     }.Yoshim ${this.age}da,${this.region}da yashayman.${
-//       this.job
-//     } bo'lib  ishlayman. ${
-//       this.isMerried ? "Uylanganman" : "Hali uylanmaganman"
-//     } `;
-//   },
-// };
-
-// const result = Davronbekobj.haqida;
-// console.log(result);
+const Davronbekobj = {
+  name: "Davronbek",
+  LastName: "Anvarov",
+  age: 22,
+  region: "Fergana",
+  isMerried: false,
+  job: "Bugalter",
+  haqida: function () {
+    return `Assalomu alaykum,Mening ismim ${this.name},Familiyam ${
+      this.LastName
+    }.Yoshim ${this.age}da,${this.region}da yashayman.${
+      this.job
+    } bo'lib  ishlayman.${
+      this.isMerried ? "Uylanganman" : "Hali uylanmaganman"
+    }`;
+  },
+};
+let result = Davronbekobj.haqida();
+console.log(result);
