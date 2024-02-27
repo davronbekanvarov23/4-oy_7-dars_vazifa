@@ -75,5 +75,23 @@
 //   alert(`Hozircha ba'zada ${viloyatNomi} viloyat mavjud emas`);
 // }
 
+// 5-MASHQ
 
+// const belgilar = prompt("nimadurlar yozing....😊");
+
+// let meyor = 15;
+
+// if (belgilar.length > meyor) {
+//   alert(
+//     `Siz ${meyor}ta belgi kiritishingiz mumkin, lekin hozirda siz ${
+//       belgilar.length
+//     }ta belgi kiritdingiz.Bu meyoridan  ${belgilar.length - meyor}ta ko'p  `
+//   );
+// } else {
+//   alert(
+//     `Siz ${meyor}ta belgi kiritishingiz mumkin, lekin hozirda siz ${
+//       belgilar.length
+//     }ta belgi kiritdingiz.Bu meyoridan  ${meyor - belgilar.length}ta kam  `
+//   );
+// }
 
