@@ -174,3 +174,30 @@
 
 /*--------------------5-MASHQ-------------------------*/
 
+// const word = prompt("Biror gap kiriting")
+// const splitWord = word.split(" ");
+// let newWord = "";
+
+// splitWord.forEach((item) => {
+//   const boshi = item.charAt().toLowerCase();
+//   const davomi = item.slice(1).toLocaleUpperCase();
+//   newWord += " " + boshi + davomi;
+// });
+
+// console.log(newWord.trimStart());
+
+/*--------------------5-MASHQ-------------------------*/
+
+// const numbers = [-1, 87, 4, 3.1, -5.5, Infinity, 0, 1, 2, 0.9];
+// let naturalNumbers = 0;
+// numbers.forEach((num) => {
+//   if (num >= 0.0 && Math.floor(num) === num && num !== Infinity && num !== 0) {
+//     naturalNumbers += num;
+//   }
+// });
+
+// console.log(naturalNumbers);
+
+/*--------------------6-MASHQ-------------------------*/
+
+
