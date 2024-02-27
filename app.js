@@ -186,7 +186,7 @@
 
 // console.log(newWord.trimStart());
 
-/*--------------------5-MASHQ-------------------------*/
+/*--------------------6-MASHQ-------------------------*/
 
 // const numbers = [-1, 87, 4, 3.1, -5.5, Infinity, 0, 1, 2, 0.9];
 // let naturalNumbers = 0;
@@ -198,6 +198,110 @@
 
 // console.log(naturalNumbers);
 
-/*--------------------6-MASHQ-------------------------*/
+/*--------------------7-MASHQ-------------------------*/
 
+// const words = "Qalesiz yaxshimisz ? Yaxshimi ishlar ?";
+// let splitWords = words.split("");
+// let counter=0
+// splitWords.forEach((word) => {
+//   if (word == "a" || word == "A") {
+//     counter++;
+//   }
+// });
 
+// console.log(`so'ralayotgan harf: ${counter}marta ishtirok etgan.`)
+
+/*--------------------8-MASHQ-------------------------*/
+
+// const types = [21.1, "Robiya", "array", ["I am array"], null, true, 214];
+// const newTypes = [];
+
+// types.forEach((type) => {
+//   newTypes.push(typeof type);
+// });
+//  console.log(newTypes)
+
+/*--------------------9-MASHQ-------------------------*/
+// const word = "Uzbekiston";
+// console.log(word.lastIndexOf(word.slice(-1))+1);
+
+/*--------------------10-MASHQ-------------------------*/
+// const numbers=[1,2,3,4,5]
+// let result=[]
+// numbers.forEach((num,i)=>{result.push(num+i)})
+// console.log(result)
+
+/*--------------------11-MASHQ-------------------------*/
+
+// let counter = 0;
+
+// for (let i = 1; i <= 10; i++) {
+//   counter += i;
+// }
+// console.log(counter);
+
+/*--------------------12-MASHQ-------------------------*/
+
+// const number=+prompt('sonni kiriting')
+
+// for (let i = 1; i <= 10; i++) {
+//   let result = number * i + 1;
+//   alert(result);
+// }
+
+/*--------------------13-MASHQ-------------------------*/
+
+// let numbers = [1, 2, 3, 4, 5];
+// let result = [];
+
+// const reverseFunc = (arr) => {
+//   arr.forEach((num) => {
+//     result.push(num * -1);
+//   });
+// };
+// reverseFunc(numbers)
+// console.log(result)
+
+/*--------------------14-MASHQ-------------------------*/
+
+// const result = [];
+
+// const fizzbuzzFanc = function (number) {
+//   for (let i = 1; i <= number; i++) {
+//     if (i % 3 == 0 && i % 5 == 0) {
+//       result.push("fizzBuzz");
+//     } else if (i % 5 == 0) {
+//       result.push("Buzz");
+//     } else if (i % 3 == 0) {
+//       result.push("Fizz");
+//     } else {
+//       result.push(i);
+//     }
+//   }
+// };
+// fizzbuzzFanc(100);
+// console.log(result);
+
+/*--------------------15-MASHQ-------------------------*/
+
+// const Davronbekobj = {
+//   name: "Davronbek",
+//   LastName: "Anvarov",
+//   age: 22,
+//   region: "Fergana",
+//   isMerried: false,
+//   job: "Bugalter",
+//   haqida: function () {
+//     return;
+//     `Assalomu alaykum,Mening ismim ${this.name},Familiyam ${
+//       this.LastName
+//     }.Yoshim ${this.age}da,${this.region}da yashayman.${
+//       this.job
+//     } bo'lib  ishlayman. ${
+//       this.isMerried ? "Uylanganman" : "Hali uylanmaganman"
+//     } `;
+//   },
+// };
+
+// const result = Davronbekobj.haqida;
+// console.log(result);
